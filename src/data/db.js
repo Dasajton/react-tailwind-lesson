@@ -1,7 +1,7 @@
 export const strawhatCrew = [
     {
         id: 1,
-        name: 'Ruffy',
+        name: 'Monkey D. Ruffy',
         nickname: 'Straw Hat',
         position: "Capt'n",
         img: './ruffy.jpg',
@@ -9,7 +9,7 @@ export const strawhatCrew = [
     },
     {
         id: 2,
-        name: 'Zorro',
+        name: 'Lorenor Zorro',
         nickname: 'Pirate Hunter',
         position: 'Right Hand',
         img: './zorro.jpg',
@@ -41,7 +41,7 @@ export const strawhatCrew = [
     },
     {
         id: 6,
-        name: 'Chopper',
+        name: 'Tony Chopper',
         nickname: 'Candy Lover',
         position: 'Doctor',
         img: './chopper.jpg',
