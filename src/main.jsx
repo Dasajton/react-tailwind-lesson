@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
-import { PageHome, PageAbout, PageContact, PageNotFound } from './pages'
+import { PageHome, PagePlayground, PageContact, PageNotFound } from './pages'
 import './index.scss'
 
 const router = createBrowserRouter([
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
         errorElement: <PageNotFound />,
         children: [
             { path: '/', element: <PageHome /> },
-            { path: '/about', element: <PageAbout /> },
+            { path: '/playground', element: <PagePlayground /> },
             { path: '/contact', element: <PageContact /> },
         ],
     },

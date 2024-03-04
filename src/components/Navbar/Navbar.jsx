@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
         <nav className="m-4 flex h-16 items-center  justify-between rounded-lg bg-white/20 p-4 ">
             <NavLink to="/">
-                <h1 className="text-5xl font-bold text-white">DS</h1>
+                <img className="h-auto w-16" src="./tailwindicon.png" alt="" />
             </NavLink>
             <ul className="flex gap-4">
                 {links.map((link) => {
