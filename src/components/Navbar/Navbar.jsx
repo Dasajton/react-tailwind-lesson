@@ -3,8 +3,8 @@ import MenuLink from './MenuLink'
 
 const links = [
     { path: '/', label: 'Home' },
-    { path: '/about', label: 'About' },
-    { path: '/contact', label: 'Contact' },
+    { path: '/playground', label: 'Playground' },
+    { path: '/notes', label: 'Notes' },
 ]
 
 const Navbar = () => {
